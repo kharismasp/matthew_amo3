@@ -1,0 +1,23 @@
+AMO STRATEGY TRAINER III — PHASE 3 TARGETED QA
+
+PASS — JavaScript syntax: app.js + phase3.js
+PASS — canonical bank count: 55 unique IDs
+PASS — canonical room counts: A6 / B8 / C6 / D6 / E7 / F7 / G5 / Mixed7 / Stretch3
+PASS — 220 practice render states: 55 problems × EN/ID × 1440/360 widths
+PASS — 48 preserved lesson render states: Home + 11 sections × EN/ID × 1440/360 widths
+PASS — no tested horizontal overflow
+PASS — no tested runtime/page errors
+PASS — initial practice states do not render full solutions
+PASS — Indonesian visible-text audit for common accidental-English UI labels
+PASS — first-move gate before answer checking
+PASS — Guide → Hint 1 → Hint 2 → Hint 3 progression
+PASS — targeted common-trap feedback
+PASS — evidence states, including Recovered after wrong → correct
+PASS — structural Change Problem + Previous Problem
+PASS — Room G first-move-only interaction
+PASS — Mixed Take Skip for now
+PASS — Teacher Pass problem jump
+PASS — source-preservation: no AMO 2023/2024 problem source introduced
+PASS — supplied mascot assets preserved; no generated replacement art
+
+Phase 4 remains responsible for exhaustive geometry-by-geometry visual validation, final browser/responsive sweep, complete localization audit, and decorative polish.

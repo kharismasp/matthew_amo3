@@ -1,0 +1,36 @@
+AMO STRATEGY TRAINER III — PHASE 4 FINAL QA
+
+PASS — JavaScript syntax: app.js + phase3.js + phase4.js
+PASS — canonical Practice Bank count: 55 unique IDs
+PASS — canonical room counts: A6 / B8 / C6 / D6 / E7 / F7 / G5 / Mixed7 / Stretch3
+PASS — 550 practice responsive render states: 55 problems × EN/ID × 320/375/768/1024/1440 widths
+PASS — 120 lesson responsive render states: Home + 11 sections × EN/ID × 320/375/768/1024/1440 widths
+PASS — total responsive render sweep: 670 states
+PASS — no tested horizontal overflow
+PASS — no tested runtime/page errors
+PASS — no solution boxes visible in initial problem state
+PASS — full visible-text Indonesian audit for accidental English UI labels used by the site
+PASS — Indonesian time labels use “menit”, not “min”
+PASS — first-move gate before answer checking
+PASS — Guide → Hint 1 → Hint 2 → Hint 3 progression
+PASS — targeted common-trap feedback
+PASS — recovered evidence after wrong → correct
+PASS — structural Change Problem + Previous Problem
+PASS — Room G first-move-only interaction
+PASS — Mixed Visual Take Skip for now
+PASS — Teacher Pass direct problem jump
+PASS — Stretch no longer leaves CORE visually selected; explicit STRETCH/PENGAYAAN state shown
+PASS — D1 fold/punch initial visual has one punch only; final solution holes all lie inside the source triangle
+PASS — G4 recognition figure shows all four canonical given line sums: 9 / 21 / 13 / 15
+PASS — G5 and S3 triangle-perimeter visuals contain exactly 12 distinct positions
+PASS — E1 / E5 / M4 cube stacks use one coordinate-driven isometric model rather than flat independent rectangles
+PASS — B3 overlap/perimeter schematic uses coherent 10:6 rectangle proportions and marks unknown overlap dimensions as schematic
+PASS — C4 triangle-packing visual uses one common scale for 1×4 / 2×4 / 3×4 / 4×4 triangles
+PASS — mascot PNG file references exist and are preserved; no replacement mascot art generated
+PASS — no raw AMO 2023 / AMO 2024 source problem introduced
+
+SOURCE LIMITATION — B5
+The supplied canonical Practice Bank text refers to “the source figure” for AMO 2017 Primary 6 Q23, but that exact source figure is not reproduced on the supplied bank page. The final site deliberately keeps a neutral lost-vs-exposed-face ledger instead of inventing unsupported 3D cut geometry. Teacher/source context is therefore still required for that one raw-source item.
+
+BROWSER NOTE
+Chromium was available for runtime/render QA. A separate Firefox/WebKit engine pass was not available in this environment.

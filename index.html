@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#f5f4ef" />
+  <title>AMO Strategy Trainer III — Visual Reasoning Lab</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="appShell">
+    <header class="topbar">
+      <button id="homeBtn" class="brand" type="button" aria-label="Home">
+        <span class="brand-mark">AMO</span>
+        <span><strong id="brandTitle">Strategy Trainer III</strong><small id="brandSub">Matthew · Grade 6 · Visual Reasoning Lab</small></span>
+      </button>
+      <div class="topbar-actions">
+        <div class="segmented" aria-label="Language">
+          <button class="lang-btn active" data-lang="en" type="button">EN</button>
+          <button class="lang-btn" data-lang="id" type="button">ID</button>
+        </div>
+        <div class="segmented level-mini" aria-label="Difficulty">
+          <button class="level-btn active" data-level="core" type="button">CORE</button>
+          <button class="level-btn" data-level="challenge" type="button">CHALLENGE</button>
+          <button class="level-btn" data-level="advanced" type="button">ADVANCED</button>
+        </div>
+        <button id="teacherPassBtn" class="ghost-btn" type="button">Teacher Pass</button>
+      </div>
+    </header>
+    <main id="main"></main>
+    <footer class="site-footer"><span>AMO Strategy Trainer III</span><span id="footerProgress"></span></footer>
+  </div>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <script src="app.js"></script>
+  <script src="phase3.js"></script>
+  <script src="phase4.js"></script>
+  <script src="visual-repair.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+AMO Strategy Trainer III — Phase 2 QA
+
+PASS — JavaScript syntax (node --check)
+PASS — 72 render-state combinations (EN/ID × CORE/CHALLENGE/ADVANCED × Home + 11 lesson sections)
+PASS — 22 unique Phase-2 practice problem IDs across Rooms A–F
+PASS — all referenced mascot PNG assets present
+PASS — source-preservation text retained (AMO 2023 RESERVED; AMO 2024 SEALED)
+PASS — initial practice visuals use neutral/givens-only states rather than guided solution-state visuals
+PASS — targeted Indonesian UI leakage audit for common English interface strings
+PASS — difficulty selector remains directly accessible; Teacher Pass does not lock student navigation
+
+Phase-2 scope note
+Full 55-problem bank expansion, Room G, Mixed Visual Takes, Stretch, Previous Problem,
+full Guide/Hint 1/Hint 2/Hint 3 ladders, and exhaustive browser/responsive geometry QA are reserved for Phases 3–4.

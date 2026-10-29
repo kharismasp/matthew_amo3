@@ -1,0 +1,15 @@
+COMPLETED
+- Phase 1 ingest + architecture
+- Phase 2 complete deployable lesson
+- Phase 3 full 55-problem interactive ecosystem
+- Phase 4 geometry reliability, localization, responsive QA, final polish
+
+CURRENT PHASE
+Phase 4 complete — final canonical build.
+
+REMAINING
+None for this build. Future changes should be local patches against this final ZIP.
+
+KNOWN ISSUES
+- B5 canonically refers to a source figure that is not reproduced in the supplied Practice Bank page; the site therefore uses a neutral lost-vs-exposed face ledger rather than inventing unsupported 3D source geometry.
+- Chromium was available for runtime/render QA; separate Firefox/WebKit engine passes were not available in this environment.
